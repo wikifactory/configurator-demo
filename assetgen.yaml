@@ -1,0 +1,18 @@
+generate:
+
+- configurator.js:
+    source:
+        - https://raw.github.com/tav/jsutil/master/define.coffee
+        - third-party/lightgl.js
+        - third-party/csg.js
+        - configurator.coffee
+
+- configurator.css:
+    source:
+        - configurator.sass
+
+output.directory: static
+
+profile.dev:
+  js.compress: false
+  css.compress: false
