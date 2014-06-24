@@ -11,6 +11,10 @@ generate:
     source:
         - configurator.sass
 
+- configurator-mobile.css:
+    source:
+        - configurator-mobile.sass
+
 output.directory: static
 
 profile.dev:
